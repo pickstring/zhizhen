@@ -15,4 +15,7 @@ int main() {
 	cout << *p << endl;
 	*p = 1000;
 	cout << a << endl;
+	//4、指针的大小
+	cout << sizeof(int*) << endl;
+	cout << sizeof(long long*) << endl;
 }
