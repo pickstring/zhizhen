@@ -15,4 +15,5 @@ int main() {
 	cout << *p << endl;
 	*p = 1000;
 	cout << a << endl;
+	cout << "git" << endl;
 }
