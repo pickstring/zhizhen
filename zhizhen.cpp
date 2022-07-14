@@ -18,4 +18,9 @@ int main() {
 	//4、指针的大小
 	cout << sizeof(int*) << endl;
 	cout << sizeof(long long*) << endl;
+	//5、空指针--指针变量p指向内存地址编号为0的空间
+	int* p1 = NULL;
+	cout << p1 << endl;
+	cout << *p1 << endl;
+
 }
